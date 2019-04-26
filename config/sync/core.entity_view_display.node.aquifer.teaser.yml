@@ -1,0 +1,27 @@
+uuid: bcfacb80-6519-47c5-96dc-1caca48f6ddc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.aquifer.field_aquifer_coordinates
+    - field.field.node.aquifer.field_aquifer_status
+    - field.field.node.aquifer.field_aquifer_volume
+    - node.type.aquifer
+  module:
+    - user
+id: node.aquifer.teaser
+targetEntityType: node
+bundle: aquifer
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_aquifer_coordinates: true
+  field_aquifer_status: true
+  field_aquifer_volume: true
+  langcode: true

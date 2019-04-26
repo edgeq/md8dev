@@ -1,0 +1,4 @@
+config_module_label: 'A demo label'
+config_module_checkbox: 1
+_core:
+  default_config_hash: DGDVY4C_UtgfzxT9pdFJvtBTAm3QhaQCizUzeDmO4FU

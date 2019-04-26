@@ -1,0 +1,13 @@
+uuid: 06ea584e-67fc-41af-8fe6-d92e03dae6b0
+langcode: en
+status: true
+dependencies: {  }
+id: content_admin
+label: 'Content Admin'
+weight: -8
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'administer content types'
+  - 'administer nodes'
+  - 'bypass node access'

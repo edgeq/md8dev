@@ -1,0 +1,8 @@
+uuid: 60c30a33-74cd-4a2b-9d17-e62dff3d8d71
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: CSZ1ZAqucOWRcLpfl1OybK1MwLFKQ09Sn-zqqVxRx5w
+id: medium_quality
+label: 'Medium Quality'

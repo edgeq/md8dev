@@ -1,0 +1,5 @@
+name: Drupalize Demo module
+type: module
+package: Drupalize
+core: 8.x
+description: 'Review of custom module development'

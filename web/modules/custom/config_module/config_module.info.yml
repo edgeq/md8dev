@@ -1,0 +1,5 @@
+name: Config Module Tut
+type: module
+package: Drupalize
+core: '8.x'
+description: 'A custom configuration module for learning module configuration'

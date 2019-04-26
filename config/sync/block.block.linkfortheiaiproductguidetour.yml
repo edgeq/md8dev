@@ -1,0 +1,38 @@
+uuid: f1049cf7-7d56-4961-898d-9cad9b23351c
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - iai_product_guide
+    - node
+  theme:
+    - bartik
+id: linkfortheiaiproductguidetour
+theme: bartik
+region: sidebar_second
+weight: -6
+provider: null
+plugin: iai_tour_link
+settings:
+  id: iai_tour_link
+  label: 'Link for the IAI Product Guide tour'
+  provider: iai_product_guide
+  label_display: '0'
+  context_mapping:
+    node: '@node.node_route_context:node'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      book: book
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  node_type:
+    id: node_type
+    bundles:
+      book: book
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

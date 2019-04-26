@@ -1,0 +1,22 @@
+uuid: 6eebd7b9-e3e0-487e-832a-97ee1aeb41e7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: basic_page_path_aliases
+label: 'Basic Page path aliases'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  d523551e-f146-4f0d-8cb0-946c32229078:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: node
+    uuid: d523551e-f146-4f0d-8cb0-946c32229078
+selection_logic: and
+weight: -5
+relationships: {  }

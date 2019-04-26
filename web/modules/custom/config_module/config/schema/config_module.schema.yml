@@ -1,0 +1,10 @@
+config_module.settings:
+  type: config_object
+  label: 'Demo module settings.'
+  mapping:
+    config_module_label:
+      type: integer
+      label: 'A demo label'
+    config_module_checkbox:
+      type: boolean
+      label: 'A demo checkbox'

@@ -1,0 +1,4 @@
+name: d8mods
+recipe: drupal8
+config:
+  webroot: web

@@ -1,0 +1,17 @@
+uuid: 343a67c4-9fa1-48d4-a05f-4a907776a3b4
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Water Eco Action'
+type: water_eco_action
+description: 'The Water Eco Action content type stores details about opportunities to help out with things like cleaning up polluted beaches.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

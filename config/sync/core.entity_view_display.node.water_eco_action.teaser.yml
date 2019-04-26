@@ -1,0 +1,21 @@
+uuid: c8a77190-2174-4b27-a4ee-79702e6be7a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.water_eco_action
+  module:
+    - user
+id: node.water_eco_action.teaser
+targetEntityType: node
+bundle: water_eco_action
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

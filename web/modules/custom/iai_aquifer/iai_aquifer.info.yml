@@ -1,0 +1,15 @@
+name: 'IAI Aquifer'
+type: module
+description: 'This module is supposed to store configuration for aquifers'
+core: 8.x
+package: 'IAI Modules'
+dependencies:
+  - colorbox
+  - file
+  - image
+  - menu_ui
+  - node
+  - path
+  - taxonomy
+  - text
+  - user

@@ -1,0 +1,8 @@
+uuid: 7cd80510-2431-4662-a88b-513cd3ee6410
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: lxRTQv8-M_zU8r_6D98r6KC_9rFrVilqmim2ybRmIvc
+id: high_quality
+label: 'High Quality'

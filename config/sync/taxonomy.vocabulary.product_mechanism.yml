@@ -1,0 +1,9 @@
+uuid: 94f4ad19-fe5e-4f7f-996e-6fb8b8d4607c
+langcode: en
+status: true
+dependencies: {  }
+name: Mechanism
+vid: product_mechanism
+description: ''
+hierarchy: 0
+weight: 0

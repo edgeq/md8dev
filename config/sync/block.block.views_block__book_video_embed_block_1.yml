@@ -1,0 +1,41 @@
+uuid: 7b6411e4-1f85-4261-bcd0-ac98e1869736
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.book_video_embed
+  module:
+    - ctools
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block__book_video_embed_block_1
+theme: bartik
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'views_block:book_video_embed-block_1'
+settings:
+  id: 'views_block:book_video_embed-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      book: book
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  node_type:
+    id: node_type
+    bundles:
+      book: book
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

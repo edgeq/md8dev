@@ -1,0 +1,17 @@
+uuid: ff30491f-f385-4d1a-a22d-7a1e942e7dc0
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Product
+type: product
+description: 'The Product content type is used to store information about products'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

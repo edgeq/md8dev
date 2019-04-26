@@ -1,0 +1,5 @@
+name: 'IAI Water Eco Action'
+type: module
+description: 'This module is supposed to store configuration for water eco action content type'
+core: 8.x
+package: 'IAI Modules'

@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains iai_product.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function iai_product_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the iai_product module.
+    case 'help.page.iai_product':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Custom content type configuration for IAI&#039;s products') . '</p>';
+      return $output;
+
+    default:
+  }
+}

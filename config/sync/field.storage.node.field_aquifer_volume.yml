@@ -1,0 +1,21 @@
+uuid: 8950d259-3e14-47b0-8af1-18eab713b0ed
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_aquifer_volume
+field_name: field_aquifer_volume
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

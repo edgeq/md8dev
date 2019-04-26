@@ -1,0 +1,14 @@
+uuid: d142e477-668c-465a-b554-e87aed040cfa
+name: 'D8 Mods'
+mail: mods@example.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/7
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

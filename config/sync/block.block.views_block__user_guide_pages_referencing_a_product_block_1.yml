@@ -1,0 +1,33 @@
+uuid: 27a6a8fb-a78f-4a08-9f55-1234d46dce85
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.user_guide_pages_referencing_a_product
+  module:
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block__user_guide_pages_referencing_a_product_block_1
+theme: bartik
+region: sidebar_second
+weight: -8
+provider: null
+plugin: 'views_block:user_guide_pages_referencing_a_product-block_1'
+settings:
+  id: 'views_block:user_guide_pages_referencing_a_product-block_1'
+  label: 'Product Guides'
+  provider: views
+  label_display: '0'
+  views_label: 'Product Guides'
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      product: product
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,7 @@
+name: 'Product Image Gallery'
+description: 'Provides functionality to display product image galleries based on images attached to a product'
+package: 'IAI Modules'
+type: module
+core: 8.x
+dependencies:
+  - iai_product

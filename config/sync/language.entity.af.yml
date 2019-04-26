@@ -1,0 +1,9 @@
+uuid: 5cb671b1-e918-4b24-8a69-5b40b49f8a04
+langcode: en
+status: true
+dependencies: {  }
+id: af
+label: Afrikaans
+direction: ltr
+weight: 1
+locked: false

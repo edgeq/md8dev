@@ -1,0 +1,15 @@
+name: 'IAI Product'
+type: module
+core: 8.x
+package: 'IAI Modules'
+description: "Custom content type configuration for IAI products"
+dependencies:
+  - colorbox
+  - file
+  - image
+  - menu_ui
+  - node
+  - path
+  - taxonomy
+  - text
+  - user

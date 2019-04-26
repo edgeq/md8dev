@@ -1,0 +1,22 @@
+uuid: f852f167-bd27-4a7a-9ea7-c59c9cfba245
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: book_page_path_aliases
+label: 'Book page path aliases'
+type: 'canonical_entities:node'
+pattern: 'documentation/[node:field_product]/[node:title]'
+selection_criteria:
+  b6760729-910f-4b4e-857f-446aa026d68b:
+    id: node_type
+    bundles:
+      book: book
+    negate: false
+    context_mapping:
+      node: node
+    uuid: b6760729-910f-4b4e-857f-446aa026d68b
+selection_logic: and
+weight: -5
+relationships: {  }
