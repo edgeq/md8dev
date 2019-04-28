@@ -31,12 +31,12 @@ class DisplayProductImage extends ControllerBase {
     if(isset($node->field_product_image[$delta])) {
       $imageData = $node->field_product_image[$delta]->getValue();
       $file = File::load($imageData['target_id']);
-      $render_array['image_data'] = [
-        '#theme' => 'image-style',
+      $render_array['image_data'] = array(
+        '#theme' => 'image_style',
         '#uri' => $file->getFileUri(),
         '#style_name' => 'product_large',
         '#alt' => $imageData['alt'],
-      ];
+      );
     }
     else {
       $render_array['image_data'] = [

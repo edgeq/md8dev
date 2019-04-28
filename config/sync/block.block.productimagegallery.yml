@@ -1,0 +1,23 @@
+uuid: 61c3cd38-958b-419e-a5db-fcc983d5e0bd
+langcode: en
+status: true
+dependencies:
+  module:
+    - iai_pig
+  theme:
+    - bartik
+id: productimagegallery
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: iai_product_image_gallery
+settings:
+  id: iai_product_image_gallery
+  label: 'Product Image Gallery'
+  provider: iai_pig
+  label_display: visible
+  block_count: '5'
+  context_mapping:
+    node: '@node.node_route_context:node'
+visibility: {  }
