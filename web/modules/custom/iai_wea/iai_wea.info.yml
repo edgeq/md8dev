@@ -1,5 +1,8 @@
 name: 'IAI Water Eco Action'
 type: module
-description: 'This module is supposed to store configuration for water eco action content type'
+description: 'The custom content type (water_eco_action) and all of its corresponding functionality'
 core: 8.x
 package: 'IAI Modules'
+dependencies:
+  - node
+  - options

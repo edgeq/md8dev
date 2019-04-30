@@ -3,7 +3,7 @@ parameters:
 services:
   aquifer.aquifer_retrieval_service:
     class: Drupal\iai_aquifer\AquiferRetrievalService
-    arguments: ['%rest_endpoints%']
+    arguments: ['%rest_endpoint%']
   aquifer.aquifer_manager_service:
     class: Drupal\iai_aquifer\AquiferManagerService
     arguments: ['@entity.manager']
