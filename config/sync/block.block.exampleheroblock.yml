@@ -1,0 +1,20 @@
+uuid: 828efbed-4437-42bc-b2e3-9c406adfbc48
+langcode: en
+status: true
+dependencies:
+  module:
+    - module_hero
+  theme:
+    - bartik
+id: exampleheroblock
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: module_hero_hero
+settings:
+  id: module_hero_hero
+  label: 'Example Hero Block'
+  provider: module_hero
+  label_display: visible
+visibility: {  }

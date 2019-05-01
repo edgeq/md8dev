@@ -21,6 +21,7 @@ module:
   dblog: 0
   devel: 0
   devel_generate: 0
+  devel_php: 0
   dynamic_page_cache: 0
   editor: 0
   examples: 0
@@ -30,15 +31,18 @@ module:
   filter: 0
   help: 0
   history: 0
+  iai_aquifer: 0
   iai_pig: 0
   iai_product: 0
   iai_product_guide: 0
+  iai_wea: 0
   image: 0
   kint: 0
   language: 0
   link: 0
   menu_ui: 0
   module_filter: 0
+  module_hero: 0
   node: 0
   options: 0
   page_cache: 0
@@ -59,6 +63,7 @@ module:
   video_embed_field: 0
   views_ui: 0
   votingapi: 0
+  webprofiler: 0
   menu_link_content: 1
   pathauto: 1
   views: 10
