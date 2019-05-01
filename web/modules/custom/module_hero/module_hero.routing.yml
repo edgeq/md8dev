@@ -1,0 +1,7 @@
+module_hero.herolist:
+  path: '/herolist'
+  defaults:
+    _controller: '\Drupal\module_hero\Controller\HeroController::herolist'
+    _title: 'Drowned Heroes'
+  requirements:
+    _permission: 'access content'
