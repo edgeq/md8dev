@@ -5,3 +5,35 @@ module_hero.herolist:
     _title: 'Drowned Heroes'
   requirements:
     _permission: 'access content'
+
+module_hero.heroform:
+  path: '/hero-form'
+  defaults:
+    _form: '\Drupal\module_hero\Form\HeroForm'
+    _title: 'Hero Showdown'
+  requirements:
+    _permission: 'can use hero form'
+
+module_hero.exampleform:
+  path: '/example-form'
+  defaults:
+    _form: '\Drupal\module_hero\Form\ExampleForm'
+    _title: 'An example form'
+  requirements:
+    _permission: 'access content'
+
+module_hero.ajaxheroform:
+  path: '/ajax-form'
+  defaults:
+    _form: '\Drupal\module_hero\Form\AjaxHeroForm'
+    _title: 'An example ajax form'
+  requirements:
+    _permission: 'access content'
+
+module_hero.confighero:
+  path: '/admin/hero'
+  defaults:
+    _form: '\Drupal\module_hero\Form\HeroConfigForm'
+    _title: 'Custom admin config'
+  requirements:
+    _permission: 'administer site configuration'

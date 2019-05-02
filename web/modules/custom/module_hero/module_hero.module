@@ -20,3 +20,34 @@ function module_hero_theme($existing, $type, $theme, $path) {
     ]
   ];
 }
+
+/**
+ * Implements hook_form_alter().
+ */
+function module_hero_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  if ($form_id == 'node_article_form') {
+    $form['title']['widget'][0]['value']['#title'] = 'Article Headline';
+    $form['#validate'][] = '_module_hero_article_validate';
+  }
+}
+
+/**
+ * Custom validation function
+ */
+function _module_hero_article_validate(&$form, $form_state) {
+  if(is_numeric($form_state->getValue('title')[0]['value'])) {
+    $form_state->setErrorByName('title', t('Headlines should not be a number'));
+  }
+}
+
+/**
+ * Implements hook_entity_presave().
+ */
+function module_hero_entity_presave(Drupal\Core\Entity\EntityInterface $entity) {
+  if ($entity->bundle() == 'article') {
+    drupal_set_message(
+      'We are resaving our article with name "' . $entity->get('title')->getValue()[0]['value'] . '"'
+    );
+  }
+  //kint(); die;
+}
