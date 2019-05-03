@@ -13,6 +13,8 @@ permissions:
   - 'access content'
   - 'access shortcuts'
   - 'access site-wide contact form'
+  - 'can see hero list'
+  - 'can use hero form'
   - 'post comments'
   - 'search content'
   - 'skip comment approval'
