@@ -40,6 +40,7 @@ module:
   kint: 0
   language: 0
   link: 0
+  lynda_myip: 0
   menu_ui: 0
   module_filter: 0
   module_hero: 0

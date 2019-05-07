@@ -1,0 +1,7 @@
+lynda_myip.findip:
+  path: '/findip'
+  defaults:
+    _controller: 'Drupal\lynda_myip\Controller\FindIp::content'
+    _title: 'The Viewers IP'
+  requirements:
+    _permission: 'access content'
