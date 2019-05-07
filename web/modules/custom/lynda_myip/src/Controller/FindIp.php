@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Contains the
+ * Contains the find IP controller
  */
 
 namespace Drupal\lynda_myip\Controller;

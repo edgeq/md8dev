@@ -1,0 +1,15 @@
+drupalize_module.printlist:
+  path: '/printlist'
+  defaults:
+    _controller: 'Drupal\drupalize_module\Controller\PrintList::content'
+    _title: 'A render array'
+  requirements:
+    _permission: 'access content'
+
+drupalize_module.buildtable:
+  path: '/buildtable'
+  defaults:
+    _controller: 'Drupal\drupalize_module\Controller\PrintTable::buildTable'
+    _title: 'A table array'
+  requirements:
+    _permission: 'access content'

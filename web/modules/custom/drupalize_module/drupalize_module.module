@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function drupalize_module_theme($existing, $type, $theme, $path) {
+  return [
+    'drupalize_module_marquee' => [
+      'variables' => [
+        'items' => [],
+        'title' => '',
+      ],
+    ],
+  ];
+}

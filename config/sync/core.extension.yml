@@ -22,6 +22,7 @@ module:
   devel: 0
   devel_generate: 0
   devel_php: 0
+  drupalize_module: 0
   dynamic_page_cache: 0
   editor: 0
   examples: 0
